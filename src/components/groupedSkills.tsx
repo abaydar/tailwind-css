@@ -11,6 +11,7 @@ interface GroupedSkillsProps {
 }
 
 const GroupedSkills: React.FC<GroupedSkillsProps> = ({ groupName, skills }) => {
+  
   const capitalize = (s: string) => {
     if (typeof s !== 'string') return '';
     return s.charAt(0).toUpperCase() + s.slice(1);
